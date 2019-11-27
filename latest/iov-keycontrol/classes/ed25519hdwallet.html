@@ -1,0 +1,742 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ed25519HdWallet | @iov/keycontrol Documentation</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">@iov/keycontrol Documentation</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="ed25519hdwallet.html">Ed25519HdWallet</a>
+				</li>
+			</ul>
+			<h1>Class Ed25519HdWallet</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="slip10wallet.html" class="tsd-signature-type">Slip10Wallet</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">Ed25519HdWallet</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/wallet.html" class="tsd-signature-type">Wallet</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-inherited">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="ed25519hdwallet.html#implementationid" class="tsd-kind-icon">implementation<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#label" class="tsd-kind-icon">label</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="ed25519hdwallet.html#clone" class="tsd-kind-icon">clone</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#createidentity" class="tsd-kind-icon">create<wbr>Identity</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#createtransactionsignature" class="tsd-kind-icon">create<wbr>Transaction<wbr>Signature</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#getidentities" class="tsd-kind-icon">get<wbr>Identities</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#getidentitylabel" class="tsd-kind-icon">get<wbr>Identity<wbr>Label</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#previewidentity" class="tsd-kind-icon">preview<wbr>Identity</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#printablesecret" class="tsd-kind-icon">printable<wbr>Secret</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#serialize" class="tsd-kind-icon">serialize</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#setidentitylabel" class="tsd-kind-icon">set<wbr>Identity<wbr>Label</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="ed25519hdwallet.html#setlabel" class="tsd-kind-icon">set<wbr>Label</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="ed25519hdwallet.html#fromentropy" class="tsd-kind-icon">from<wbr>Entropy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ed25519hdwallet.html#fromentropywithcurve" class="tsd-kind-icon">from<wbr>Entropy<wbr>With<wbr>Curve</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="ed25519hdwallet.html#frommnemonic" class="tsd-kind-icon">from<wbr>Mnemonic</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="ed25519hdwallet.html#frommnemonicwithcurve" class="tsd-kind-icon">from<wbr>Mnemonic<wbr>With<wbr>Curve</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Ed25519<wbr>HdWallet<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="../globals.html#walletserializationstring" class="tsd-signature-type">WalletSerializationString</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#constructor">constructor</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L192">wallets/slip10wallet.ts:192</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <a href="../globals.html#walletserializationstring" class="tsd-signature-type">WalletSerializationString</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="id" class="tsd-anchor"></a>
+					<h3>id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <a href="../globals.html#walletid" class="tsd-signature-type">WalletId</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/wallet.html">Wallet</a>.<a href="../interfaces/wallet.html#id">id</a></p>
+						<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#id">id</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L182">wallets/slip10wallet.ts:182</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+					<a name="implementationid" class="tsd-anchor"></a>
+					<h3>implementation<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">implementation<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">As</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">"wallet-implementation-id"</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;&quot;ed25519-hd&quot; as WalletImplementationIdString</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/wallet.html">Wallet</a>.<a href="../interfaces/wallet.html#implementationid">implementationId</a></p>
+						<p>Overrides <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#implementationid">implementationId</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/ed25519hdwallet.ts#L19">wallets/ed25519hdwallet.ts:19</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="label" class="tsd-anchor"></a>
+					<h3>label</h3>
+					<div class="tsd-signature tsd-kind-icon">label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ValueAndUpdates</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/wallet.html">Wallet</a>.<a href="../interfaces/wallet.html#label">label</a></p>
+						<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#label">label</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L180">wallets/slip10wallet.ts:180</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="clone" class="tsd-anchor"></a>
+					<h3>clone</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">clone<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#clone">clone</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/ed25519hdwallet.ts#L21">wallets/ed25519hdwallet.ts:21</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="createidentity" class="tsd-anchor"></a>
+					<h3>create<wbr>Identity</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Identity<span class="tsd-signature-symbol">(</span>chainId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ChainId</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Identity</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#createidentity">createIdentity</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L274">wallets/slip10wallet.ts:274</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>chainId: <span class="tsd-signature-type">ChainId</span></h5>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">unknown</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Identity</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="createtransactionsignature" class="tsd-anchor"></a>
+					<h3>create<wbr>Transaction<wbr>Signature</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Transaction<wbr>Signature<span class="tsd-signature-symbol">(</span>identity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Identity</span>, transactionBytes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">SignableBytes</span>, prehashType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">PrehashType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SignatureBytes</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#createtransactionsignature">createTransactionSignature</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L320">wallets/slip10wallet.ts:320</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>identity: <span class="tsd-signature-type">Identity</span></h5>
+								</li>
+								<li>
+									<h5>transactionBytes: <span class="tsd-signature-type">SignableBytes</span></h5>
+								</li>
+								<li>
+									<h5>prehashType: <span class="tsd-signature-type">PrehashType</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SignatureBytes</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getidentities" class="tsd-anchor"></a>
+					<h3>get<wbr>Identities</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Identities<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">keyof Identity[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#getidentities">getIdentities</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L315">wallets/slip10wallet.ts:315</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">keyof Identity[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getidentitylabel" class="tsd-anchor"></a>
+					<h3>get<wbr>Identity<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Identity<wbr>Label<span class="tsd-signature-symbol">(</span>identity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Identity</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#getidentitylabel">getIdentityLabel</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L305">wallets/slip10wallet.ts:305</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>identity: <span class="tsd-signature-type">Identity</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="previewidentity" class="tsd-anchor"></a>
+					<h3>preview<wbr>Identity</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">preview<wbr>Identity<span class="tsd-signature-symbol">(</span>chainId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ChainId</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Identity</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#previewidentity">previewIdentity</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L244">wallets/slip10wallet.ts:244</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>chainId: <span class="tsd-signature-type">ChainId</span></h5>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">unknown</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Identity</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="printablesecret" class="tsd-anchor"></a>
+					<h3>printable<wbr>Secret</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">printable<wbr>Secret<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#printablesecret">printableSecret</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L366">wallets/slip10wallet.ts:366</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="serialize" class="tsd-anchor"></a>
+					<h3>serialize</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">serialize<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../globals.html#walletserializationstring" class="tsd-signature-type">WalletSerializationString</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#serialize">serialize</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L370">wallets/slip10wallet.ts:370</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../globals.html#walletserializationstring" class="tsd-signature-type">WalletSerializationString</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setidentitylabel" class="tsd-anchor"></a>
+					<h3>set<wbr>Identity<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Identity<wbr>Label<span class="tsd-signature-symbol">(</span>identity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Identity</span>, label<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#setidentitylabel">setIdentityLabel</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L296">wallets/slip10wallet.ts:296</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>identity: <span class="tsd-signature-type">Identity</span></h5>
+								</li>
+								<li>
+									<h5>label: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setlabel" class="tsd-anchor"></a>
+					<h3>set<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Label<span class="tsd-signature-symbol">(</span>label<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#setlabel">setLabel</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L240">wallets/slip10wallet.ts:240</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>label: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="fromentropy" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> from<wbr>Entropy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">from<wbr>Entropy<span class="tsd-signature-symbol">(</span>bip39Entropy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/ed25519hdwallet.ts#L7">wallets/ed25519hdwallet.ts:7</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>bip39Entropy: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+					<a name="fromentropywithcurve" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> from<wbr>Entropy<wbr>With<wbr>Curve</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">from<wbr>Entropy<wbr>With<wbr>Curve<span class="tsd-signature-symbol">(</span>curve<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Slip10Curve</span>, bip39Entropy<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, cls<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Slip10WalletConstructor</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="slip10wallet.html" class="tsd-signature-type">Slip10Wallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#fromentropywithcurve">fromEntropyWithCurve</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L103">wallets/slip10wallet.ts:103</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>curve: <span class="tsd-signature-type">Slip10Curve</span></h5>
+								</li>
+								<li>
+									<h5>bip39Entropy: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> cls: <span class="tsd-signature-type">Slip10WalletConstructor</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="slip10wallet.html" class="tsd-signature-type">Slip10Wallet</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="frommnemonic" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> from<wbr>Mnemonic</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">from<wbr>Mnemonic<span class="tsd-signature-symbol">(</span>mnemonicString<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/ed25519hdwallet.ts#L11">wallets/ed25519hdwallet.ts:11</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>mnemonicString: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ed25519hdwallet.html" class="tsd-signature-type">Ed25519HdWallet</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+					<a name="frommnemonicwithcurve" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> from<wbr>Mnemonic<wbr>With<wbr>Curve</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">from<wbr>Mnemonic<wbr>With<wbr>Curve<span class="tsd-signature-symbol">(</span>curve<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Slip10Curve</span>, mnemonicString<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, cls<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Slip10WalletConstructor</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="slip10wallet.html" class="tsd-signature-type">Slip10Wallet</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="slip10wallet.html">Slip10Wallet</a>.<a href="slip10wallet.html#frommnemonicwithcurve">fromMnemonicWithCurve</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/iov-one/iov-core/blob/3d3c018/packages/iov-keycontrol/src/wallets/slip10wallet.ts#L112">wallets/slip10wallet.ts:112</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>curve: <span class="tsd-signature-type">Slip10Curve</span></h5>
+								</li>
+								<li>
+									<h5>mnemonicString: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> cls: <span class="tsd-signature-type">Slip10WalletConstructor</span><span class="tsd-signature-symbol"> =&nbsp;Slip10Wallet</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="slip10wallet.html" class="tsd-signature-type">Slip10Wallet</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="databaseutils.html" class="tsd-kind-icon">Database<wbr>Utils</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="ed25519hdwallet.html" class="tsd-kind-icon">Ed25519<wbr>HdWallet</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+								<a href="ed25519hdwallet.html#implementationid" class="tsd-kind-icon">implementation<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#label" class="tsd-kind-icon">label</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="ed25519hdwallet.html#clone" class="tsd-kind-icon">clone</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#createidentity" class="tsd-kind-icon">create<wbr>Identity</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#createtransactionsignature" class="tsd-kind-icon">create<wbr>Transaction<wbr>Signature</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#getidentities" class="tsd-kind-icon">get<wbr>Identities</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#getidentitylabel" class="tsd-kind-icon">get<wbr>Identity<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#previewidentity" class="tsd-kind-icon">preview<wbr>Identity</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#printablesecret" class="tsd-kind-icon">printable<wbr>Secret</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#serialize" class="tsd-kind-icon">serialize</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#setidentitylabel" class="tsd-kind-icon">set<wbr>Identity<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="ed25519hdwallet.html#setlabel" class="tsd-kind-icon">set<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="ed25519hdwallet.html#fromentropy" class="tsd-kind-icon">from<wbr>Entropy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+								<a href="ed25519hdwallet.html#fromentropywithcurve" class="tsd-kind-icon">from<wbr>Entropy<wbr>With<wbr>Curve</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="ed25519hdwallet.html#frommnemonic" class="tsd-kind-icon">from<wbr>Mnemonic</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+								<a href="ed25519hdwallet.html#frommnemonicwithcurve" class="tsd-kind-icon">from<wbr>Mnemonic<wbr>With<wbr>Curve</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class">
+						<a href="ed25519wallet.html" class="tsd-kind-icon">Ed25519<wbr>Wallet</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="hdpaths.html" class="tsd-kind-icon">Hd<wbr>Paths</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="keyring.html" class="tsd-kind-icon">Keyring</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="keyringencryptor.html" class="tsd-kind-icon">Keyring<wbr>Encryptor</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="secp256k1hdwallet.html" class="tsd-kind-icon">Secp256k1<wbr>HdWallet</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="slip10wallet.html" class="tsd-kind-icon">Slip10<wbr>Wallet</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="unexpectedformatversionerror.html" class="tsd-kind-icon">Unexpected<wbr>Format<wbr>Version<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="userprofile.html" class="tsd-kind-icon">User<wbr>Profile</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/readonlywallet.html" class="tsd-kind-icon">Readonly<wbr>Wallet</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/userprofileencryptionkey.html" class="tsd-kind-icon">User<wbr>Profile<wbr>Encryption<wbr>Key</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/userprofileoptions.html" class="tsd-kind-icon">User<wbr>Profile<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/wallet.html" class="tsd-kind-icon">Wallet</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/walletinfo.html" class="tsd-kind-icon">Wallet<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#encryptedkeyring" class="tsd-kind-icon">Encrypted<wbr>Keyring</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#keyringserializationstring" class="tsd-kind-icon">Keyring<wbr>Serialization<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#walletdeserializer" class="tsd-kind-icon">Wallet<wbr>Deserializer</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#walletid" class="tsd-kind-icon">Wallet<wbr>Id</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#walletimplementationidstring" class="tsd-kind-icon">Wallet<wbr>Implementation<wbr>IdString</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#walletserializationstring" class="tsd-kind-icon">Wallet<wbr>Serialization<wbr>String</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#prehash" class="tsd-kind-icon">prehash</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
